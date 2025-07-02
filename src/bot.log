@@ -1,0 +1,368 @@
+2025-06-27 08:38:02,439 - aiogram.dispatcher - INFO - Start polling
+2025-06-27 08:38:02,865 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-27 08:38:46,645 - root - ERROR - Error fetching тенге->дирхам: 'NoneType' object has no attribute 'find'
+2025-06-27 08:38:46,891 - root - ERROR - Error fetching тенге->рубль: 'NoneType' object has no attribute 'find'
+2025-06-27 08:38:47,050 - root - ERROR - Error fetching тенге->сом: 'NoneType' object has no attribute 'find'
+2025-06-27 08:38:47,221 - root - ERROR - Error fetching дирхам->рубль: 'NoneType' object has no attribute 'find'
+2025-06-27 08:38:47,426 - root - ERROR - Error fetching дирхам->сом: 'NoneType' object has no attribute 'find'
+2025-06-27 08:38:47,651 - root - ERROR - Error fetching рубль->сом: 'NoneType' object has no attribute 'find'
+2025-06-27 08:38:48,775 - root - ERROR - Binance error: list index out of range
+2025-06-27 08:38:52,200 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-27 08:38:52,200 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-27 08:38:52,200 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-27 08:38:52,451 - aiogram.event - INFO - Update id=423807060 is not handled. Duration 6306 ms by bot id=7974627539
+2025-06-27 09:44:39,173 - __main__ - INFO - Starting bot...
+2025-06-27 09:44:39,267 - __main__ - INFO - Bot is ready to receive messages
+2025-06-27 09:44:39,267 - aiogram.dispatcher - INFO - Start polling
+2025-06-27 09:44:39,900 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-27 09:45:08,090 - handlers.basic - INFO - User 6903748145 started the bot
+2025-06-27 09:45:08,563 - root - ERROR - Error fetching тенге->дирхам: 'NoneType' object has no attribute 'find'
+2025-06-27 09:45:08,749 - root - ERROR - Error fetching тенге->рубль: 'NoneType' object has no attribute 'find'
+2025-06-27 09:45:08,939 - root - ERROR - Error fetching тенге->сом: 'NoneType' object has no attribute 'find'
+2025-06-27 09:45:09,132 - root - ERROR - Error fetching дирхам->рубль: 'NoneType' object has no attribute 'find'
+2025-06-27 09:45:09,312 - root - ERROR - Error fetching дирхам->сом: 'NoneType' object has no attribute 'find'
+2025-06-27 09:45:09,492 - root - ERROR - Error fetching рубль->сом: 'NoneType' object has no attribute 'find'
+2025-06-27 09:45:10,386 - root - ERROR - Binance error: list index out of range
+2025-06-27 09:45:22,057 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-27 09:45:22,058 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-27 09:45:22,058 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-27 09:45:22,308 - aiogram.event - INFO - Update id=423807061 is not handled. Duration 14218 ms by bot id=7974627539
+2025-06-27 09:49:05,565 - __main__ - INFO - Starting bot...
+2025-06-27 09:49:05,570 - __main__ - INFO - Bot is ready to receive messages
+2025-06-27 09:49:05,571 - aiogram.dispatcher - INFO - Start polling
+2025-06-27 09:49:05,892 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-27 09:49:18,304 - handlers.basic - INFO - User 6903748145 started the bot
+2025-06-27 09:49:18,728 - root - ERROR - Error fetching тенге->дирхам: write() argument must be str, not BeautifulSoup
+2025-06-27 09:49:18,974 - root - ERROR - Error fetching тенге->рубль: write() argument must be str, not BeautifulSoup
+2025-06-27 09:49:19,156 - root - ERROR - Error fetching тенге->сом: write() argument must be str, not BeautifulSoup
+2025-06-27 09:49:19,399 - root - ERROR - Error fetching дирхам->рубль: write() argument must be str, not BeautifulSoup
+2025-06-27 09:49:19,599 - root - ERROR - Error fetching дирхам->сом: write() argument must be str, not BeautifulSoup
+2025-06-27 09:49:19,789 - root - ERROR - Error fetching рубль->сом: write() argument must be str, not BeautifulSoup
+2025-06-27 09:49:20,451 - root - ERROR - Binance error: list index out of range
+2025-06-27 09:49:22,440 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-27 09:49:22,441 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-27 09:49:22,441 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-27 09:49:22,692 - aiogram.event - INFO - Update id=423807062 is not handled. Duration 4388 ms by bot id=7974627539
+2025-06-30 16:04:23 - root - INFO - Starting bot...
+2025-06-30 16:04:23 - root - INFO - Bot is ready to receive messages
+2025-06-30 16:04:23 - aiogram.dispatcher - INFO - Start polling
+2025-06-30 16:04:24 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 16:04:36 - handlers.basic - INFO - User 6903748145 started the bot
+2025-06-30 16:04:37 - root - ERROR - Binance parsing error: list index out of range
+2025-06-30 16:04:37 - root - ERROR - Error fetching тенге->рубль: 'NoneType' object has no attribute 'text'
+2025-06-30 16:04:47 - root - WARNING - Bybit timeout
+2025-06-30 16:04:47 - handlers.basic - INFO - Rates sent successfully
+2025-06-30 16:04:47 - aiogram.event - INFO - Update id=423807063 is handled. Duration 10937 ms by bot id=7974627539
+2025-06-30 16:24:58 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-30 16:24:58 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 16:24:58 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-30 16:24:58 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-30 16:25:06 - root - INFO - Starting bot...
+2025-06-30 16:25:06 - root - INFO - Bot is ready to receive messages
+2025-06-30 16:25:06 - aiogram.dispatcher - INFO - Start polling
+2025-06-30 16:25:06 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 16:25:33 - handlers.basic - INFO - User 6903748145 started the bot
+2025-06-30 16:25:33 - services.p2p_rates - WARNING - Binance: No data available
+2025-06-30 16:25:33 - services.google_currency - WARNING - Google parser failed for дирхам->рубль
+2025-06-30 16:25:33 - services.google_currency - WARNING - Google parser failed for дирхам->сом
+2025-06-30 16:25:33 - services.google_currency - WARNING - Google parser failed for рубль->сом
+2025-06-30 16:25:33 - services.google_currency - WARNING - Google parser failed for тенге->дирхам
+2025-06-30 16:25:34 - services.google_currency - WARNING - Google parser failed for тенге->рубль
+2025-06-30 16:25:34 - services.p2p_rates - WARNING - OKX: No price element found
+2025-06-30 16:25:34 - services.google_currency - WARNING - Google parser failed for тенге->сом
+2025-06-30 16:25:54 - services.p2p_rates - WARNING - Bybit timeout
+2025-06-30 16:25:54 - handlers.basic - INFO - Rates sent successfully
+2025-06-30 16:25:54 - aiogram.event - INFO - Update id=423807064 is handled. Duration 21110 ms by bot id=7974627539
+2025-06-30 16:32:28 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-30 16:32:28 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 16:32:28 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-30 16:36:40 - root - INFO - Starting bot...
+2025-06-30 16:36:40 - root - INFO - Bot is ready to receive messages
+2025-06-30 16:36:40 - aiogram.dispatcher - INFO - Start polling
+2025-06-30 16:36:40 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 16:37:07 - handlers.basic - INFO - User 6903748145 started the bot
+2025-06-30 16:37:07 - services.google_currency - WARNING - Google parser failed for дирхам->рубль
+2025-06-30 16:37:07 - services.google_currency - WARNING - Google parser failed for тенге->дирхам
+2025-06-30 16:37:07 - services.google_currency - WARNING - Google parser failed for дирхам->сом
+2025-06-30 16:37:07 - services.google_currency - WARNING - Google parser failed for тенге->рубль
+2025-06-30 16:37:08 - services.google_currency - WARNING - Google parser failed for рубль->сом
+2025-06-30 16:37:08 - services.google_currency - WARNING - Google parser failed for тенге->сом
+2025-06-30 16:37:08 - services.p2p_rates - WARNING - OKX: No price element found
+2025-06-30 16:37:08 - services.p2p_rates - WARNING - Binance: No data available
+2025-06-30 16:37:28 - services.p2p_rates - WARNING - Bybit timeout
+2025-06-30 16:37:28 - handlers.basic - INFO - Rates sent successfully
+2025-06-30 16:37:28 - aiogram.event - INFO - Update id=423807065 is handled. Duration 21169 ms by bot id=7974627539
+2025-06-30 16:52:24 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-30 16:52:24 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 16:52:24 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-30 16:52:31 - root - INFO - Starting bot...
+2025-06-30 16:52:31 - root - INFO - Bot is ready to receive messages
+2025-06-30 16:52:31 - aiogram.dispatcher - INFO - Start polling
+2025-06-30 16:52:31 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 16:52:51 - handlers.basic - INFO - User 6903748145 started the bot
+2025-06-30 16:52:51 - services.google_currency - WARNING - Google parser failed for рубль->сом
+2025-06-30 16:52:51 - services.google_currency - WARNING - Google parser failed for дирхам->рубль
+2025-06-30 16:52:51 - services.google_currency - WARNING - Google parser failed for дирхам->сом
+2025-06-30 16:52:51 - services.google_currency - WARNING - Google parser failed for тенге->сом
+2025-06-30 16:52:51 - services.google_currency - WARNING - Google parser failed for тенге->рубль
+2025-06-30 16:52:51 - services.google_currency - WARNING - Google parser failed for тенге->дирхам
+2025-06-30 16:52:52 - services.p2p_rates - WARNING - OKX: No price element found
+2025-06-30 16:52:52 - services.p2p_rates - WARNING - Binance: No data available
+2025-06-30 16:53:06 - handlers.basic - ERROR - Service timeout
+2025-06-30 16:53:07 - aiogram.event - INFO - Update id=423807066 is handled. Duration 15871 ms by bot id=7974627539
+2025-06-30 17:09:23 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-30 17:09:23 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 17:09:23 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-30 17:09:24 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-30 17:09:29 - root - INFO - Starting bot...
+2025-06-30 17:09:29 - root - INFO - Bot is ready to receive messages
+2025-06-30 17:09:29 - aiogram.dispatcher - INFO - Start polling
+2025-06-30 17:09:30 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 17:09:40 - handlers.basic - INFO - User 6903748145 started the bot
+2025-06-30 17:09:40 - services.google_currency - WARNING - Google parser failed for дирхам->сом
+2025-06-30 17:09:40 - services.google_currency - WARNING - Google parser failed for тенге->сом
+2025-06-30 17:09:40 - services.google_currency - WARNING - Google parser failed for дирхам->рубль
+2025-06-30 17:09:40 - services.google_currency - WARNING - Google parser failed for тенге->дирхам
+2025-06-30 17:09:40 - services.google_currency - WARNING - Google parser failed for рубль->сом
+2025-06-30 17:09:40 - services.google_currency - WARNING - Google parser failed for тенге->рубль
+2025-06-30 17:09:40 - services.p2p_rates - WARNING - Binance: Invalid response structure
+2025-06-30 17:09:40 - services.p2p_rates - WARNING - OKX: No price element found
+2025-06-30 17:10:01 - services.p2p_rates - WARNING - Bybit timeout
+2025-06-30 17:10:01 - handlers.basic - INFO - Rates sent successfully
+2025-06-30 17:10:01 - aiogram.event - INFO - Update id=423807067 is handled. Duration 21384 ms by bot id=7974627539
+2025-06-30 17:10:10 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-30 17:10:10 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-06-30 17:10:10 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-30 17:10:11 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-07-02 03:37:08 - root - INFO - Starting bot...
+2025-07-02 03:37:08 - root - INFO - Bot is ready to receive messages
+2025-07-02 03:37:08 - aiogram.dispatcher - INFO - Start polling
+2025-07-02 03:37:09 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 03:41:09 - handlers.basic - INFO - User 6903748145 started the bot
+2025-07-02 03:41:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 03:41:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 03:41:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 03:41:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 03:41:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 03:41:10 - services.p2p_rates - WARNING - OKX: No price element found
+2025-07-02 03:41:11 - services.p2p_rates - WARNING - Binance: Invalid response structure
+2025-07-02 03:41:11 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 03:41:30 - services.p2p_rates - WARNING - Bybit timeout
+2025-07-02 03:41:30 - handlers.basic - INFO - Rates sent successfully
+2025-07-02 03:41:30 - aiogram.event - INFO - Update id=423807068 is handled. Duration 21334 ms by bot id=7974627539
+2025-07-02 03:49:20 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-07-02 03:49:20 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 03:49:20 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-02 04:44:03 - root - INFO - Starting bot...
+2025-07-02 04:44:04 - root - INFO - Bot is ready to receive messages
+2025-07-02 04:44:04 - aiogram.dispatcher - INFO - Start polling
+2025-07-02 04:44:04 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 04:44:09 - handlers.basic - INFO - User 6903748145 started the bot
+2025-07-02 04:44:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 04:44:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:44:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:44:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:44:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:44:10 - services.p2p_rates - WARNING - OKX: No price element found
+2025-07-02 04:44:10 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:44:11 - services.p2p_rates - WARNING - Binance: Invalid response structure
+2025-07-02 04:44:30 - services.p2p_rates - WARNING - Bybit timeout
+2025-07-02 04:44:30 - handlers.basic - ERROR - Critical error: Telegram server says - Bad Request: message can't be edited
+Traceback (most recent call last):
+  File "/home/ilmir/dev_code/valutnii_bot_ak/src/handlers/basic.py", line 64, in cmd_start
+    await message.edit_text(response)
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message can't be edited
+2025-07-02 04:44:31 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:44:31 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:44:31 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 04:44:31 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:44:31 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:44:31 - services.p2p_rates - WARNING - Binance: Invalid response structure
+2025-07-02 04:44:31 - services.p2p_rates - WARNING - OKX: No price element found
+2025-07-02 04:44:31 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:44:46 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-07-02 04:44:46 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 04:44:46 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-02 04:44:46 - aiogram.event - INFO - Update id=423807069 is not handled. Duration 37134 ms by bot id=7974627539
+2025-07-02 04:44:48 - root - INFO - Starting bot...
+2025-07-02 04:44:48 - root - INFO - Bot is ready to receive messages
+2025-07-02 04:44:48 - aiogram.dispatcher - INFO - Start polling
+2025-07-02 04:44:49 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 04:44:52 - handlers.basic - INFO - User 6903748145 started the bot
+2025-07-02 04:44:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:44:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:44:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:44:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:44:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 04:44:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:44:53 - services.p2p_rates - WARNING - OKX: No price element found
+2025-07-02 04:44:53 - services.p2p_rates - WARNING - Binance: Invalid response structure
+2025-07-02 04:45:13 - services.p2p_rates - WARNING - Bybit timeout
+2025-07-02 04:45:13 - handlers.basic - ERROR - Critical error: Telegram server says - Bad Request: message can't be edited
+Traceback (most recent call last):
+  File "/home/ilmir/dev_code/valutnii_bot_ak/src/handlers/basic.py", line 64, in cmd_start
+    await message.edit_text(response)
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message can't be edited
+2025-07-02 04:45:24 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:45:24 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:45:24 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 04:45:24 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:45:24 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:45:24 - services.p2p_rates - WARNING - OKX: No price element found
+2025-07-02 04:45:24 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:45:24 - services.p2p_rates - WARNING - Binance: Invalid response structure
+2025-07-02 04:45:44 - services.p2p_rates - WARNING - Bybit timeout
+2025-07-02 04:45:44 - handlers.basic - ERROR - Critical error: Telegram server says - Bad Request: message can't be edited
+Traceback (most recent call last):
+  File "/home/ilmir/dev_code/valutnii_bot_ak/src/handlers/basic.py", line 64, in cmd_start
+    await message.edit_text(response)
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ilmir/dev_code/valutnii_bot_ak/venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message can't be edited
+2025-07-02 04:45:55 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:45:55 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:45:55 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:45:55 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 04:45:55 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 04:45:55 - services.p2p_rates - WARNING - OKX: No price element found
+2025-07-02 04:45:55 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 04:45:55 - services.p2p_rates - WARNING - Binance: Invalid response structure
+2025-07-02 04:45:56 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-07-02 04:45:56 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 04:45:56 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-02 04:45:56 - aiogram.event - INFO - Update id=423807070 is not handled. Duration 63950 ms by bot id=7974627539
+2025-07-02 05:09:42 - root - INFO - Starting bot...
+2025-07-02 05:09:43 - root - INFO - Bot is ready to receive messages
+2025-07-02 05:09:43 - aiogram.dispatcher - INFO - Start polling
+2025-07-02 05:09:43 - handlers.basic - INFO - Running periodic update...
+2025-07-02 05:09:43 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 05:09:49 - handlers.basic - INFO - Fetching new rates data...
+2025-07-02 05:09:50 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 05:09:50 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 05:09:50 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 05:09:50 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 05:09:50 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 05:09:50 - services.p2p_rates - WARNING - OKX: No price element found
+2025-07-02 05:09:50 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 05:09:50 - services.p2p_rates - WARNING - Binance: Invalid response structure
+2025-07-02 05:09:53 - handlers.basic - INFO - Running periodic update...
+2025-07-02 05:09:53 - handlers.basic - INFO - Fetching new rates data...
+2025-07-02 05:09:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 05:09:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 05:09:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 05:09:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 05:09:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 05:09:53 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 05:09:53 - services.p2p_rates - WARNING - OKX: No price element found
+2025-07-02 05:09:53 - services.p2p_rates - WARNING - Binance: Invalid response structure
+2025-07-02 05:10:10 - services.p2p_rates - WARNING - Bybit timeout
+2025-07-02 05:10:10 - handlers.basic - INFO - Updated rates for user 6903748145
+2025-07-02 05:10:10 - aiogram.event - INFO - Update id=423807071 is handled. Duration 21883 ms by bot id=7974627539
+2025-07-02 05:10:13 - services.p2p_rates - WARNING - Bybit timeout
+2025-07-02 05:10:23 - handlers.basic - INFO - Running periodic update...
+2025-07-02 05:10:33 - handlers.basic - INFO - Running periodic update...
+2025-07-02 05:10:43 - handlers.basic - INFO - Running periodic update...
+2025-07-02 05:10:54 - handlers.basic - INFO - Running periodic update...
+2025-07-02 05:11:04 - handlers.basic - INFO - Running periodic update...
+2025-07-02 05:11:14 - handlers.basic - INFO - Running periodic update...
+2025-07-02 05:11:16 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-07-02 05:11:16 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 05:11:16 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-02 07:46:40 - root - INFO - Starting bot...
+2025-07-02 07:46:41 - root - INFO - Bot is ready to receive messages
+2025-07-02 07:46:41 - aiogram.dispatcher - INFO - Start polling
+2025-07-02 07:46:41 - handlers.basic - INFO - Running periodic update...
+2025-07-02 07:46:42 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 07:46:51 - handlers.basic - INFO - Fetching new rates data...
+2025-07-02 07:46:52 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 07:46:52 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 07:46:52 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 07:46:52 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 07:46:52 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 07:46:52 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 07:46:52 - handlers.basic - INFO - Updated rates for user 6903748145
+2025-07-02 07:46:52 - aiogram.event - INFO - Update id=423807072 is handled. Duration 2014 ms by bot id=7974627539
+2025-07-02 07:47:11 - handlers.basic - INFO - Running periodic update...
+2025-07-02 07:47:41 - handlers.basic - INFO - Running periodic update...
+2025-07-02 07:48:11 - handlers.basic - INFO - Running periodic update...
+2025-07-02 07:48:27 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-07-02 07:48:27 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 07:48:27 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-02 08:29:20 - root - INFO - Starting bot...
+2025-07-02 08:29:20 - root - INFO - Bot is ready to receive messages
+2025-07-02 08:29:20 - aiogram.dispatcher - INFO - Start polling
+2025-07-02 08:29:20 - handlers.basic - INFO - Running periodic update...
+2025-07-02 08:29:21 - aiogram.dispatcher - INFO - Run polling for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 08:29:24 - handlers.basic - INFO - Fetching new rates data...
+2025-07-02 08:29:25 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 08:29:25 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 08:29:25 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 08:29:25 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 08:29:25 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 08:29:25 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 08:29:26 - handlers.basic - INFO - Updated rates for user 6903748145
+2025-07-02 08:29:26 - aiogram.event - INFO - Update id=423807073 is handled. Duration 2102 ms by bot id=7974627539
+2025-07-02 08:29:50 - handlers.basic - INFO - Running periodic update...
+2025-07-02 08:29:50 - handlers.basic - INFO - Fetching new rates data...
+2025-07-02 08:29:51 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 08:29:51 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 08:29:51 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 08:29:51 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 08:29:51 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 08:29:51 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 08:29:51 - handlers.basic - INFO - Updated rates for user 6903748145
+2025-07-02 08:30:21 - handlers.basic - INFO - Running periodic update...
+2025-07-02 08:30:21 - handlers.basic - INFO - Fetching new rates data...
+2025-07-02 08:30:22 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/KGS "HTTP/1.1 200 OK"
+2025-07-02 08:30:22 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/AED "HTTP/1.1 200 OK"
+2025-07-02 08:30:22 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/KZT/RUB "HTTP/1.1 200 OK"
+2025-07-02 08:30:22 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/RUB "HTTP/1.1 200 OK"
+2025-07-02 08:30:22 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/AED/KGS "HTTP/1.1 200 OK"
+2025-07-02 08:30:22 - httpx - INFO - HTTP Request: GET https://v6.exchangerate-api.com/v6/1ef9193cd817b82282b6f5b3/pair/RUB/KGS "HTTP/1.1 200 OK"
+2025-07-02 08:30:22 - handlers.basic - INFO - Updated rates for user 6903748145
+2025-07-02 08:30:25 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-07-02 08:30:25 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_apps_ilmir_bot id=7974627539 - 'testing_apps'
+2025-07-02 08:30:25 - aiogram.dispatcher - INFO - Polling stopped

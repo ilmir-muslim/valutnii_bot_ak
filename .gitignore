@@ -2,3 +2,9 @@
 /.pytest_cache
 /tree.txt
 /venv
+/tests
+__pycache__/
+src/patches/
+bot.log
+src/restore_patch.sh
+src/save_all_files.sh

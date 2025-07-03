@@ -1,20 +1,33 @@
 #!/bin/bash
 
-# Точка запуска — остаётся в app/
-output_file="output.txt"
-> "$output_file"  # очистка/создание выходного файла
+# Рабочая директория — остаётся в app/
+patches_dir="patches"
+mkdir -p "$patches_dir"  # создать, если не существует
 
-# Пути, которые нужно исключить (по вхождению подстроки)
+# Определяем следующий номер патча
+next_patch_number=$(ls "$patches_dir" | grep -Eo 'patch_[0-9]+' | sed 's/[^0-9]*//g' | sort -n | tail -1)
+if [[ -z "$next_patch_number" ]]; then
+  next_patch_number=1
+else
+  next_patch_number=$((next_patch_number + 1))
+fi
+
+# Имя нового файла
+patch_file=$(printf "%s/patch_%03d.txt" "$patches_dir" "$next_patch_number")
+> "$patch_file"  # очистка/создание
+
+# Исключаемые пути
 EXCLUDED_PATTERNS=(
   "/__pycache__/"
   "/.pytest_cache/"
   "./save_all_files.sh"
-  "./output.txt"
   "./bot.log"
   "./bs4_result.html"
+  "./output.txt"
+  "./patches/"
 )
 
-# Проверка: путь содержит исключённый фрагмент?
+# Функция проверки на исключение
 is_excluded() {
   local path="$1"
   for pattern in "${EXCLUDED_PATTERNS[@]}"; do
@@ -25,21 +38,21 @@ is_excluded() {
   return 1
 }
 
-# Сохраняем содержимое всех файлов в текущей директории и ниже
-find . -type f | while read file; do
+# Сохраняем все подходящие файлы
+find . -type f | while read -r file; do
   if ! is_excluded "$file"; then
-    echo "===== $file =====" >> "$output_file"
-    cat "$file" >> "$output_file"
-    echo -e "\n" >> "$output_file"
+    echo "===== $file =====" >> "$patch_file"
+    cat "$file" >> "$patch_file"
+    echo -e "\n" >> "$patch_file"
   fi
 done
 
+# Добавляем дерево проекта
+echo "===== Структура проекта (tree из ../) =====" >> "$patch_file"
+tree ../ -I "venv|__pycache__|project_structure.txt|node_modules" >> "$patch_file"
 
-# Добавляем вывод tree из корня проекта
-echo "===== Структура проекта (tree из ../) =====" >> "$output_file"
-tree ../ -I "venv|__pycache__|project_structure.txt|node_modules" >> "$output_file"
+# Копируем в буфер
+xclip -selection clipboard < "$patch_file"
+echo "📋 Содержимое патча скопировано в буфер"
 
-xclip -selection clipboard < "$output_file"
-echo "📋 Содержимое скопировано в буфер (xclip)"
-
-echo "✅ Всё сохранено в '$output_file'"
+echo "✅ Сохранено как '$patch_file'"

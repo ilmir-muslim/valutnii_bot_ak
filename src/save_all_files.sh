@@ -4,8 +4,13 @@
 patches_dir="patches"
 mkdir -p "$patches_dir"  # создать, если не существует
 
-# Определяем следующий номер патча
-next_patch_number=$(ls "$patches_dir" | grep -Eo 'patch_[0-9]+' | sed 's/[^0-9]*//g' | sort -n | tail -1)
+# === Корректное определение следующего номера патча ===
+next_patch_number=$(
+  find "$patches_dir" -maxdepth 1 -type f -name "patch_*.txt" \
+  | sed -E 's/.*patch_([0-9]+)\.txt/\1/' \
+  | sed 's/^0*//' | sort -n | tail -1
+)
+# Если ничего не найдено — установить в 1, иначе инкремент
 if [[ -z "$next_patch_number" ]]; then
   next_patch_number=1
 else
@@ -27,7 +32,7 @@ EXCLUDED_PATTERNS=(
   "./patches/"
 )
 
-# Функция проверки на исключение
+# Функция проверки исключения
 is_excluded() {
   local path="$1"
   for pattern in "${EXCLUDED_PATTERNS[@]}"; do
@@ -38,8 +43,8 @@ is_excluded() {
   return 1
 }
 
-# Сохраняем все подходящие файлы
-find . -type f | while read -r file; do
+# === Сохраняем все подходящие файлы ===
+find . -type f -print0 | while IFS= read -r -d '' file; do
   if ! is_excluded "$file"; then
     echo "===== $file =====" >> "$patch_file"
     cat "$file" >> "$patch_file"
@@ -47,12 +52,21 @@ find . -type f | while read -r file; do
   fi
 done
 
-# Добавляем дерево проекта
+# === Добавляем структуру проекта ===
 echo "===== Структура проекта (tree из ../) =====" >> "$patch_file"
-tree ../ -I "venv|__pycache__|project_structure.txt|node_modules" >> "$patch_file"
+if command -v tree >/dev/null 2>&1; then
+  tree ../ -I "venv|__pycache__|node_modules|project_structure.txt|patches" >> "$patch_file" 2>/dev/null
+else
+  echo "[!] Утилита 'tree' не установлена, пропущено." >> "$patch_file"
+fi
 
-# Копируем в буфер
-xclip -selection clipboard < "$patch_file"
-echo "📋 Содержимое патча скопировано в буфер"
+# === Копируем в буфер, если доступен xclip ===
+if command -v xclip >/dev/null 2>&1; then
+  xclip -selection clipboard < "$patch_file"
+  echo "📋 Содержимое патча скопировано в буфер"
+else
+  echo "⚠️ Утилита 'xclip' не найдена, копирование в буфер пропущено"
+fi
 
+# === Финальный вывод ===
 echo "✅ Сохранено как '$patch_file'"

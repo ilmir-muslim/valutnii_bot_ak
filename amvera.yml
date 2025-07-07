@@ -1,0 +1,13 @@
+meta:
+  environment: docker
+
+build:
+  dockerfile: Dockerfile
+
+run:
+  containerPort: 8080
+  persistenceMount: /data
+
+env:
+  BOT_TOKEN: "токен_сюда"
+  EXCHANGE_RATE_API_KEY: "твой_ключ"

@@ -5,7 +5,10 @@ from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
-from handlers import basic
+from aiogram.types import BotCommand
+from tasks.scheduler import periodic_update
+
+from handlers import live
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -24,7 +27,6 @@ stream_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 logger.addHandler(stream_handler)
 
-
 async def main():
     load_dotenv()
     BOT_TOKEN = os.getenv("BOT_TOKEN")
@@ -35,18 +37,22 @@ async def main():
 
     logger.info("Starting bot...")
 
+    global bot
+    
     bot = Bot(
         token=BOT_TOKEN,
         default=DefaultBotProperties(parse_mode=ParseMode.HTML)
     )
 
+    # Меню команд Telegram
+    await bot.set_my_commands([
+        BotCommand(command="start", description="Стартовое сообщение"),
+    ])
+
     dp = Dispatcher()
-    dp.include_router(basic.router)
+    dp.include_router(live.router)
 
-    # Удален вызов preload_data(), так как эта функция больше не существует
-
-    # Запускаем фоновую задачу для периодического обновления
-    asyncio.create_task(basic.periodic_update(bot))
+    asyncio.create_task(periodic_update(bot))
 
     logger.info("Bot is ready to receive messages")
     await dp.start_polling(bot)

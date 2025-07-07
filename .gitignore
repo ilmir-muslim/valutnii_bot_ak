@@ -8,3 +8,5 @@ src/patches/
 bot.log
 src/restore_patch.sh
 src/save_all_files.sh
+task.txt
+src/user_data.json

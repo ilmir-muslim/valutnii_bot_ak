@@ -9,90 +9,47 @@ import time
 import logging
 import re
 
-def get_bybit_average_price(pair: str):
-    """Возвращает среднюю цену для заданной валютной пары на Bybit"""
+# services/get_bybit_rates.py
+
+def get_bybit_prices(pair: str) -> dict | None:
+    """Возвращает первую цену покупки и продажи для заданной валютной пары на Bybit"""
     try:
         if "/" not in pair:
             raise ValueError("Формат пары должен быть 'USDT/USD'")
 
         asset, fiat = pair.upper().split("/")
-        base_url = f"https://www.bybit.com/ru-RU/fiat/trade/otc/buy/{asset}/{fiat}"
-        
-        # Настройка Chrome в headless-режиме
-        chrome_options = Options()
-        chrome_options.add_argument("--headless=new")
-        chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--window-size=1920,1080")
-        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-        chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")
-        
-        # Автоматическая установка драйвера
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=chrome_options)
+        url_template = "https://www.bybit.com/ru-RU/fiat/trade/otc/{trade_type}/{asset}/{fiat}"
 
-        try:
-            # Загрузка страницы
-            logging.info(f"Загрузка страницы: {base_url}")
-            driver.get(base_url)
-            
-            # Ожидание появления цен
-            WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "span.price-amount"))
-            )
-            
-            # Сбор цен
-            price_elements = driver.find_elements(By.CSS_SELECTOR, "span.price-amount")
-            prices = []
-            
-            for element in price_elements:
-                try:
-                    text = element.text
-                    # Удаляем текст валюты и пробелы
-                    price_text = text.replace(fiat, "").strip()
-                    # Заменяем запятые на точки для преобразования в float
-                    price_text = price_text.replace(',', '.').replace(' ', '')
-                    # Извлекаем число
-                    price = float(price_text)
-                    prices.append(price)
-                    logging.info(f"Найдена цена: {price} {fiat}")
-                except Exception as e:
-                    logging.warning(f"Ошибка обработки элемента: {element.text} - {str(e)}")
-                    continue
-            
-            # Расчет средней цены
-            if prices:
-                avg_price = round(sum(prices) / len(prices), 2)
-                logging.info(f"Найдено {len(prices)} цен, средняя: {avg_price} {fiat}")
-                return avg_price
-            else:
-                logging.warning("Цены не найдены")
-                return None
+        def fetch_price(trade_type):
+            chrome_options = Options()
+            chrome_options.add_argument("--headless=new")
+            chrome_options.add_argument("--disable-gpu")
+            chrome_options.add_argument("--no-sandbox")
+            chrome_options.add_argument("--disable-dev-shm-usage")
+            chrome_options.add_argument("--window-size=1920,1080")
+            chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+            chrome_options.add_argument("user-agent=Mozilla/5.0 ...")
 
-        except Exception as e:
-            logging.error(f"Ошибка: {str(e)}", exc_info=True)
-            return None
-        finally:
-            driver.quit()
-            logging.info("Браузер закрыт")
+            driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+            driver.get(url_template.format(trade_type=trade_type, asset=asset, fiat=fiat))
+
+            try:
+                WebDriverWait(driver, 20).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "span.price-amount"))
+                )
+                price_el = driver.find_elements(By.CSS_SELECTOR, "span.price-amount")
+                if not price_el:
+                    return None
+                text = price_el[0].text.replace(fiat, "").replace(",", ".").strip()
+                return float(re.sub(r"[^\d.]", "", text))
+            finally:
+                driver.quit()
+
+        return {
+            "buy": fetch_price("buy"),    # USDT покупают — ты продаёшь фиат
+            "sell": fetch_price("sell"),  # USDT продают — ты покупаешь фиат
+        }
 
     except Exception as e:
-        logging.error(f"Критическая ошибка: {str(e)}", exc_info=True)
+        logging.error(f"Bybit error: {e}", exc_info=True)
         return None
-
-if __name__ == "__main__":
-    # Настройка логирования
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s'
-    )
-    
-    # Пример использования
-    pair = "USDT/EGP"
-    average_price = get_bybit_average_price(pair)
-    
-    if average_price is not None:
-        print(f"Средняя цена {pair}: {average_price}")
-    else:
-        print("Не удалось получить цену")
